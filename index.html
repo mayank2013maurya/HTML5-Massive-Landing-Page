@@ -187,13 +187,11 @@
         const menu = document.querySelector(".menu");
         const closeBtn = document.querySelector(".close-btn i");
         menu.addEventListener("click", (e) => {
-            menu.style.display = "none";
             sidenav.style.display = "flex";
             sidenav.style.right = "0%";
         });
         closeBtn.addEventListener("click", (e) => {
             sidenav.style.display = "none";
-            menu.style.display = "block";
             sidenav.style.right = "-70%";
         });
     </script>
